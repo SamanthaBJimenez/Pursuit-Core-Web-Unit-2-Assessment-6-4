@@ -44,5 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let yourReview = document.createElement("li");
     yourReview.innerHTML = `<b>${title.innerText}</b>: ${input.value}.`;
     submissions.appendChild(yourReview);
+    input.value = "";
   });
 });
