@@ -7,32 +7,23 @@ html {
 }
 
 body {
-    /* margin-top: 30px; */
     display: block;
     position: absolute;
     flex-direction: column;
     background-color: lavender;
     font-family: monospace;
-    /* margin-left:auto;
-    margin-right:auto; */
     width: 80%;
-    /* bottom: 0; */
 }
 
 .header {
-    /* position: absolute; */
     width: 70%;
     height: 150px;
-    /* text-orientation: upright; */
     margin: auto auto 30px auto;
     padding: 10px;
     background-color: skyblue;
-    /* justify-content: space-around; */
-    /* top: 0; */
 }
 h1 {
     float: right;
-    /* line-height: 1.5; */
     transform: translate(0%, 135%);
     font-size: 2vw;
 }
